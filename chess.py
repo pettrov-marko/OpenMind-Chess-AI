@@ -6,7 +6,7 @@ import pygame
 from chess_engine import *
 from chess_rules import *
 import numpy as np
-import TensorFlow as tf
+#import TensorFlow as tf
 import math as m
 
 class Game:
@@ -48,7 +48,7 @@ class Game:
 		pygame.display.flip()
 
 
-	def main():
+	def main(self):
 		pygame.init()
 		screen = pygame.display.set_mode((self.Width, self.Height))
 		screen.fill(pygame.Color("white"))

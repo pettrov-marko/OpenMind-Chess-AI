@@ -5,7 +5,7 @@ import pygame
 import os 
 import math 
 import numpy 
-import TensorFlow
+#import TensorFlow
 
 class GameState:
 	def __init__(self):
